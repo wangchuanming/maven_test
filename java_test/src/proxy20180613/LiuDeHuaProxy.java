@@ -42,6 +42,8 @@ public class LiuDeHuaProxy {
 	                      if (method.getName().equals("sing")) {
 	                          System.out.println("我是他的经纪人，要找他唱歌得先给十万块钱！！");
 	                          //已经给钱了，经纪人自己不会唱歌，就只能找刘德华去唱歌！
+	                          
+	                          System.out.println("厉害了");
 	                          return method.invoke(ldh, args); //代理对象调用真实目标对象的sing方法去处理用户请求
 	                      }
 	                      //如果调用的是代理对象的dance方法
