@@ -8,7 +8,7 @@ public class LiuDeHua implements Person{
 		     
 		      public String dance(String name){
 		          System.out.println("刘德华跳"+name+"舞！！");
-		         return "舞跳完了，多谢各位观众！";
+		         return "舞跳完了，多谢各位观众,其实我也会跳舞的！";
 		     }
 
 }
